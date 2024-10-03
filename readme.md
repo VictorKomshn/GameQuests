@@ -14,7 +14,7 @@
 * Domain test
 * Infrastructure
 
-В проекте используется паттер Options, для описания [ограничений и параметров для пользователя] (https://github.com/VictorKomshn/GameQuests/blob/main/GameQuests.Domain/AggregatesModel/PlayerAggregate/PlayerOptions.cs) (максимальное количество квестов), а также [ConnectionString для БД] (https://github.com/VictorKomshn/GameQuests/blob/main/GameQuests.Infrastructure/Options/PostgreOptions.cs)
+В проекте используется паттер Options, для описания [ограничений и параметров для пользователя](https://github.com/VictorKomshn/GameQuests/blob/main/GameQuests.Domain/AggregatesModel/PlayerAggregate/PlayerOptions.cs) (максимальное количество квестов), а также [ConnectionString для БД](https://github.com/VictorKomshn/GameQuests/blob/main/GameQuests.Infrastructure/Options/PostgreOptions.cs)
 
 ### Domain
 [GameQuest.Domain](https://github.com/VictorKomshn/GameQuests/tree/main/GameQuests.Domain) Представляет собой "сердце" проекта, содержит в себе всю логику, основанной на сервисах, а также POCO объектах.
